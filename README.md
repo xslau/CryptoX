@@ -3,8 +3,8 @@ Coded by Xzavian Slaughter
 DESCRIPTION 
 ----------------------------------------------------------------------------
 ----------------------------------------------------------------------------
-The purpose of this program is to provide an isolated progrma that can
-generate random passwords, create character to symbol subsititution password
+The purpose of this program is to provide an isolated program that can
+generate random passwords, create character to symbol substitution password
 suggestions, and decode/encode Atbesh Cryptograms. 
 ----------------------------------------------------------------------------
 ----------------------------------------------------------------------------
