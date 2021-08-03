@@ -8,9 +8,11 @@ generate random passwords, create character to symbol subsititution password
 suggestions, and decode/encode Atbesh Cryptograms. 
 ----------------------------------------------------------------------------
 ----------------------------------------------------------------------------
-Future Aspirations
+FUTURE ASPIRATIONS
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
 Caesarian Cypher Algorithm with proper numerical cipher shift
 Storage of past passwords with JSON files for localized instance of CryptoX
   per machine
----------------------------------------------------------------------------
----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
