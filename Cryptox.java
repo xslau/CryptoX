@@ -17,9 +17,9 @@ public class Cryptox {
 		System.out.println("Welcome to CrytpoX!");
 		Cryptox_Back Source = new Cryptox_Back(); 
 
-		while(choice != 4) {
+		while(choice != 5) {
 
-			System.out.println("1: Generate a Random Password of N length\n2: Atbesh\n3: Password Creator\n4: Exit"); 
+			System.out.println("1: Generate a Random Password of N length\n2: Atbesh\n3: Password Creator \n4: Pin Creator\n5: Exit"); 
 			choice = input.nextInt(); 
 
 			switch(choice) {
@@ -32,8 +32,10 @@ public class Cryptox {
 					break;
 				case 3: 
 					Source.PWCreator(); 
-					break; 	
+					break;
 				case 4: 
+					Source.PinCreator();	
+				case 5: 
 					Source.Exit();
 				        break;
 				default: 

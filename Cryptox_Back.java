@@ -17,7 +17,10 @@ public class Cryptox_Back {
 	private String password = "";
 	private String phrase = ""; 
        	private String focus = "";
-	private String solve = ""; 	
+	private int pin = 0; 
+	private String solve = "";
+
+	private static final int MAX = 9; 	
 
 	private static final char [] TOTAL_SET = {' ','!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9',
 		'A', 'B', 'C', 'D', 'E', 'F','G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z','a','b','c','d','e','f','g',		'h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'};
@@ -116,6 +119,32 @@ public class Cryptox_Back {
 
 		System.out.println("Password: " + password); 	
 
+	}
+
+	/**
+	 *Pin Creator
+	 *Generates a numerical string of inputted length
+	 *@author: Xzavian
+	 *
+	 */
+	public void PinCreator() {
+
+		Random rand = new Random();
+	        String result = ""; 	
+
+		spacer(); 
+		System.out.println("Length of Pin: "); 
+		pin = input.nextInt(); 
+		spacer(); 
+
+		for(int i = 0; i < pin; i++) {
+			
+			rand = new Random(); 
+
+			result = result + rand.nextInt(MAX); 
+		}
+
+		System.out.println("Pin: " + result); 
 	}
 
 	/**
